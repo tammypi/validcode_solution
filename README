@@ -1,0 +1,5 @@
+这是DataCastle验证码识别大赛第二类型验证码识别的源码。
+下面就源码进行说明：
+com.fetching.main.DataGenerator.java 将图片转换为特征数据
+com.fetching.main.NeuralNetworkTrainner.java 使用神经网络训练模型，并保存模型到HDFS
+com.fetching.main.NeuralNetworkPredict.java 使用训练好的神经网络模型，对于验证码进行识别，并输出结果到HDFS
